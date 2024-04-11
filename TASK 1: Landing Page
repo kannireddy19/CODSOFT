@@ -1,0 +1,119 @@
+#HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WELCOME</title>
+  </head>
+  <body>
+    <header>
+      <h1>CODESOFT INTERNSHIP</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">signup</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>KANNIREDDY CAR WORLD</h2>
+      <p>Explore.Select.Purchase</p>
+      <a href="#" class="cta-button">ENTER</a>
+    </section>
+
+    <footer>
+      <p>
+        REDDY GROUP OF AUTOMOBILES COMPANY
+      </p>
+    </footer>
+  </body>
+</html>
+
+#CSS CODE
+h1
+{
+    color:black
+}
+h2
+{
+    
+    color:red
+}
+p,
+body,
+ul,
+li {
+    color:black
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  background-color:lightcoral;
+  color: black;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.hero {
+  background-image: url("https://th.bing.com/th/id/R.c01b6d0db911418422fb6305fc211125?rik=I8OdaPaUbanTVg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fc%2f5%2fb%2f1512820-free-download-hd-wallpaper-for-pc-1920x1200-for-samsung-galaxy.jpg&ehk=LZd0sYQsahwR9juFkPBrV%2fWZNQ%2bDprt6yFraNiVyJxw%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  text-align: center;
+  padding: 140px 0;
+  color:black;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:lightpink;
+  color:black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color:lightgreen;
+  color:black;
+  text-align: center;
+  padding: 10px 0;
+}
